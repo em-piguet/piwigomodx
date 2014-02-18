@@ -1,0 +1,1 @@
+<span><a href="[[+url]]"[[+counter:is=``:then=``:else=` title="[[+counter]] [[%piwigomodx.photos? &namespace=`piwigomodx` &topic=`default`]]"`]][[+class:is=``:then=``:else=` class="[[+class]]"`]]>[[+name]]</a> </span>
