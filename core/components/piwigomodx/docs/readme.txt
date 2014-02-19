@@ -5,7 +5,7 @@ Version: 1.0.0-pl
 Authors: Epy (webmaster@aide-en-info.net)
          Philippe Juillerat <philippe.juillerat@filago.ch>
 
-PiwigoModx id a MODx addon that displays images from a Piwigo gallery.
+PiwigoModx is a MODx addon that displays images from a Piwigo gallery.
 Manage your images inside the Piwigo manager and display these inside
 your site MODx front-end. This component allows you to easily retrieve
 and display categories, tags, images and image metadata. There are
