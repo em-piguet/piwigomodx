@@ -1,4 +1,4 @@
-<a class="thumbnail" href="[[+src]]" title="[[+name]][[+author:is=``:then=``:else=`, ©&nbsp;[[+author]]`]]"><img width="[[+width]]" height="[[+height]]" src='[[+thumbnail_src]]' alt="[[+file]]" /></a>
+<a class="thumbnail [[+cls]]" href="[[+src]]" title="[[+name]][[+author:is=``:then=``:else=`, ©&nbsp;[[+author]]`]]"><img width="[[+width]]" height="[[+height]]" src='[[+thumbnail_src]]' alt="[[+file]]" /></a>
 <p>
   <strong><a href="[[+page_url]]">[[+name]]</a></strong>[[+comment:is=``:then=``:else=`<br />[[+comment]]`]]
 </p>

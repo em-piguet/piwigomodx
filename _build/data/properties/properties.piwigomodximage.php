@@ -15,6 +15,13 @@ $properties = array(
         'value' => 'piwigoModxImage',
     ),
     array(
+        'name' => 'cls',
+        'desc' => 'CSS class name for the template',
+        'type' => 'textfield',
+        'options' => '',
+        'value' => null,
+    ),
+    array(
         'name' => 'image_type',
         'desc' => 'Type of image to link',
         'type' => 'list',

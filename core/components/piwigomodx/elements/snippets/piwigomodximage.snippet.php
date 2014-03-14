@@ -14,6 +14,8 @@
  * @param int $image_id Piwigo image id
  * @param string $tpl optional Chunk to display the image. Default:
  * piwigoModxImage
+ * @param string $cls optional CSS class name for the template.
+ * Default: null
  * @param string $image_type optional Type of image to link (square,
  * thumb, 2small, xsmall, small, medium, large, xlarge, xxlarge).
  * Default medium
@@ -53,6 +55,7 @@ if (!($piwigoModx instanceof PiwigoModx)) {return false;}
 $method = 'pwg.images.getInfo';
 $image_id = $modx->getOption('image_id',$scriptProperties,'');
 $tpl = $modx->getOption('tpl',$scriptProperties,'piwigoModxImage');
+$cls = $modx->getOption('cls',$scriptProperties,null);
 $image_type = $modx->getOption('image_type',$scriptProperties,'medium');
 $thumbnail_type = $modx->getOption('thumbnail_type',$scriptProperties,'2small');
 $show_linked_categories = $modx->getOption('show_linked_categories',$scriptProperties,0);
@@ -134,6 +137,7 @@ if ($show_comments) {
 unset($image['comments']);
 
 $placeholders = array_merge($image, array(
+    'cls' => $cls,
     'src' => $src,
     'thumbnail_src' => $thumbnail_src,
     'width' => $thumbnail_width,

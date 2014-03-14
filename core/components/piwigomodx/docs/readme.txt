@@ -51,6 +51,8 @@ The following parameters are supported by PiwigoModxImage:
 - tpl (optional)
     Chunk to display the image.
     Default: piwigoModxImage
+- cls (optional)
+    CSS class name for the template
 - image_type (optional)
     Type of image to link, one of these values:
     - square,
