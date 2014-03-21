@@ -3,3 +3,8 @@ Changelog for PiwigoModx.
 PiwigoModx 1.0.0
 ==============
 - Initial release
+
+PiwigoModx 1.0.1
+==============
+- Additional cls parameter for PiwigoModxImage to pass an optional CSS class to
+  the template

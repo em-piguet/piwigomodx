@@ -1,7 +1,7 @@
 --------------------
 PiwigoModx
 --------------------
-Version: 1.0.0-pl
+Version: 1.0.1-pl
 Authors: Epy (webmaster@aide-en-info.net)
          Philippe Juillerat <philippe.juillerat@filago.ch>
 
